@@ -10,7 +10,7 @@ PPE-Checker/
 │── requirements.txt # Python dependencies
 │── README.md # Project description (this file)
 │── .gitignore # Ignore unnecessary files
-│── best.pt # Model weights (⚠️ see note below)
+│── best.pt # Model weights 
  
 
 🚀 Usage
@@ -46,3 +46,25 @@ The trained YOLOv8 model is available here:
 
 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first.
+
+📂 Dataset
+
+The dataset used for training this model is available in two places:
+
+- 📥 Google Drive:  
+  👉 [Download Dataset](https://drive.google.com/drive/folders/1gqBkwLW9GpK_X8lPbZHrwrgwl2_CAwvu?usp=drive_link)  
+
+- 🌐 **Roboflow** (original source):  
+  👉 [View on Roboflow](https://universe.roboflow.com/rosemary-xt27v/ppe-detection-q897z-bghcd)
+  
+
+📦 How to Use
+After downloading, place the dataset in a `datasets/` folder like this:
+
+datasets/
+│── PPE-Dataset/
+    │── train/
+    │── valid/
+    │── test/
+    │── data.yaml
+
