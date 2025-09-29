@@ -1,7 +1,7 @@
 🦺 PPE Checker
 
 This project detects Personal Protective Equipment (PPE) such as helmets and safety vests for construction firms using YOLOv8.  
-It can run real-time on your **webcam** and draw bounding boxes around detected objects.
+It can run real-time on your webcam and draw bounding boxes around detected objects.
  
 
 📂 Project Structure
