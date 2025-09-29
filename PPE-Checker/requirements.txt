@@ -1,0 +1,5 @@
+Requirements Include:
+
+- ultralytics
+- torch
+- opencv-python
