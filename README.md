@@ -1,48 +1,48 @@
-🦺 PPE Checker with YOLOv8
+🦺 PPE Checker
 
-A real-time **Personal Protective Equipment (PPE) detector** built using YOLOv8 and OpenCV.  
-It detects **helmets** and **vests** from a webcam feed with bounding boxes and confidence scores.
+This project detects Personal Protective Equipment (PPE) such as helmets and safety vests for construction firms using YOLOv8.  
+It can run real-time on your **webcam** and draw bounding boxes around detected objects.
+ 
 
----
+📂 Project Structure
+PPE-Checker/
+│── ppe_webcam.py # Main YOLOv8 detection script
+│── requirements.txt # Python dependencies
+│── README.md # Project description (this file)
+│── .gitignore # Ignore unnecessary files
+│── best.pt # Model weights (⚠️ see note below)
+ 
 
-🚀 Features
-- Real-time detection with webcam
-- Bounding boxes + class labels
-- Uses a YOLOv8n custom-trained model
-- Lightweight and runs on CPU/GPU
+🚀 Usage
 
----
-
-⚙️ Installation
-Clone the repo:
+1. Clone the repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/PPE-Checker.git
+git clone https://github.com/your-username/PPE-Checker.git
 cd PPE-Checker
 ```
-Install dependencies:
-```bash
+
+2. Install dependencies
+Copy code
+```
 pip install -r requirements.txt
 ```
-
-▶️ Usage
-Run detection from webcam:
+3. Run detection with webcam
+Copy code
 ```
 python ppe_webcam.py
 ```
 
-🛠️ Tech Stack
-
-- Python
-- YOLOv8 (Ultralytics)
-- OpenCV
+📦 Model Weights
+The trained YOLOv8 model is available here:
+👉 Download best.pt
 
 
-🔹 Git Commands (from VS Code terminal)
+📌 Example Classes
+- Helmet
+- Vest
+- No Helmet
+- No Vest
+- Person
 
-```bash
-git init
-git add .
-git commit -m "Initial commit - PPE Checker with YOLOv8"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/PPE-Checker.git
-git push -u origin main
+🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first.
